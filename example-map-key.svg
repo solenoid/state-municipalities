@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" width="300" height="31" viewBox="0 0 300 31" stroke-linecap="butt" stroke-linejoin="round">
+<style>
+  path {shape-rendering: crispEdges;}
+</style>
+<g id="layer1">
+<path d="M 1 10.93 1 1 43.57 1 43.57 10.93 1 10.93 Z" fill="#005a32"/>
+<path d="M 43.57 10.93 43.57 1 86.14 1 86.14 10.93 43.57 10.93 Z" fill="#238443"/>
+<path d="M 86.14 10.93 86.14 1 128.71 1 128.71 10.93 86.14 10.93 Z" fill="#41ab5d"/>
+<path d="M 128.71 10.93 128.71 1 171.29 1 171.29 10.93 128.71 10.93 Z" fill="#78c679"/>
+<path d="M 171.29 10.93 171.29 1 213.86 1 213.86 10.93 171.29 10.93 Z" fill="#addd8e"/>
+<path d="M 213.86 10.93 213.86 1 256.43 1 256.43 10.93 213.86 10.93 Z" fill="#d9f0a3"/>
+<path d="M 256.43 10.93 256.43 1 299 1 299 10.93 256.43 10.93 Z" fill="#ffffcc"/>
+</g>
+<g id="layer2" fill="none" stroke="black" stroke-width="1">
+<path d="M 43.57 1 43.57 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 86.14 1 86.14 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 128.71 1 128.71 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 171.29 1 171.29 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 213.86 1 213.86 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 256.43 1 256.43 16.89" stroke="rgba(0,0,0,0.3)"/>
+</g>
+<g id="layer3" font-family="sans-serif" font-size="12" text-anchor="middle">
+<text y="0" x="0" transform="translate(43.6 29.9)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">100</text>
+<text y="0" x="0" transform="translate(86.1 29.9)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">500</text>
+<text y="0" x="0" transform="translate(128.7 29.9)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">1000</text>
+<text y="0" x="0" transform="translate(171.3 29.9)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">2000</text>
+<text y="0" x="0" transform="translate(213.9 29.9)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">5000</text>
+<text y="0" x="0" transform="translate(256.4 29.9)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">10000</text>
+</g>
+</svg>

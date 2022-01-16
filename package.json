@@ -1,0 +1,21 @@
+{
+  "name": "state-municipalities",
+  "type": "module",
+  "description": "MA Municipalities based maps.",
+  "author": {
+    "name": "Erik Solen"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "data:fetch": "./scripts/dataFetch.sh data/download.massgis.digital.mass.gov/shapefiles/state/townssurvey_shp.zip",
+    "build:init": "./scripts/buildInit.sh data/download.massgis.digital.mass.gov/shapefiles/state/TOWNSSURVEY_POLYM.shp build/geo.json",
+    "build:pop": "./scripts/buildPop.js build/geo.json build/geo-population.json build/debug-population.csv",
+    "build:svg": "./scripts/buildSVG.sh build/geo-population.json dist/map.svg dist/map-key.svg",
+    "clean": "rm -rf build data dist node_modules"
+  },
+  "dependencies": {
+    "mapshaper": "0.5.87"
+  }
+}
