@@ -22,23 +22,39 @@ so it is planar to begin with.
 
 Before getting started run `npm install` to get the `mapshaper` dependency.
 
-Then run the following:
+Quick version for 2010 data since that is what comes with mass data.
 
 ```bash
 npm run data:fetch # run this once to download data and unzip it in data
 npm run build:init # make geojson file from shapefile while simplifying in build
-npm run build:pop # adds population density to geojson data in build
-npm run build:svg # creates svg file and key from the geojson data in dist
+npm run build:pop2010 # adds population density to geojson data in build
+npm run build:svg2010 # creates svg file and key from the geojson data in dist
 ```
 
-You should be able to see locally `dist/map.svg`
+You should be able to see locally `dist/map-2010.svg`
 that should look like the following example here.
 
-<img src="example-map.svg" alt="Example Map">
+<img src="example-map-2010.svg" alt="Example Map 2010">
 
-<img src="example-map-key.svg" alt="Example Map Key">
+<img src="example-map-key-2010.svg" alt="Example Map Key 2010">
 
 Population density (in 2010) for people / square mile by municipality.
+
+A more involved getting started gets 2020 data from the US census and joins it.
+
+```bash
+npm run data:fetch # if already run for quick version this can be skipped
+npm run build:init # this can be skipped too like the fetch if alread run
+npm run data:fetch2020 # get the US census data from 2020 to join in
+npm run build:pop2020 # adds population density warns on suspect data
+npm run build:svg2020 # creates svg file and key from the geojson data in dist
+```
+
+<img src="example-map-2020.svg" alt="Example Map 2020">
+
+<img src="example-map-key-2020.svg" alt="Example Map Key 2020">
+
+Population density (in 2020) for people / square mile by municipality.
 
 ## Appendix
 

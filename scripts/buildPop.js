@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // see https://github.com/tc39/proposal-hashbang on how the above is standardizing
 
-// usage ./scripts/buildPopulation.js in-geo.json out-geo.json [out-debug.csv]
+// usage ./scripts/buildPop.js in-geo.json out-geo.json [out-debug.csv]
 import fs from 'fs/promises'
 
 const IN_FILE = process.argv[2]

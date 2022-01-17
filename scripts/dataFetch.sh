@@ -6,7 +6,7 @@ set -e
 
 DATA_DIR=`dirname $0`/../`dirname $1`
 ZIP_FILE=`basename $1`
-DOWNLOAD_PATH=`echo $1 | sed 's/.*\(download\)/\1/'`
+DOWNLOAD_PATH=`echo ${1##data/}`
 
 mkdir -p $DATA_DIR
 pushd $DATA_DIR
