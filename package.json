@@ -12,7 +12,7 @@
     "data:fetch": "./scripts/dataFetch.sh data/download.massgis.digital.mass.gov/shapefiles/state/townssurvey_shp.zip",
     "data:fetch2020": "./scripts/dataFetch2020.sh data/programs-surveys/popest/datasets/2010-2020/cities/SUB-EST2020_25.csv",
     "build:init": "./scripts/buildInit.sh data/download.massgis.digital.mass.gov/shapefiles/state/TOWNSSURVEY_POLYM.shp build/geo.json",
-    "build:pop2010": "./scripts/buildPop.js build/geo.json build/geo-population-2010.json build/debug-population-2010.csv",
+    "build:pop2010": "./scripts/buildPop2010.js build/geo.json build/geo-population-2010.json build/debug-population-2010.csv",
     "build:pop2020": "./scripts/buildPop2020.js build/geo.json build/geo-population-2020.json data/programs-surveys/popest/datasets/2010-2020/cities/SUB-EST2020_25.csv build/debug-population-2020.csv",
     "build:svg2010": "./scripts/buildSVG.sh build/geo-population-2010.json dist/map-2010.svg dist/map-key-2010.svg",
     "build:svg2020": "./scripts/buildSVG.sh build/geo-population-2020.json dist/map-2020.svg dist/map-key-2020.svg",
